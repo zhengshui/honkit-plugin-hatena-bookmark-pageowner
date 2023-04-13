@@ -1,0 +1,17 @@
+{
+  "name": "honkit-plugin-hatena-bookmark-pageowner-example",
+  "version": "0.1.0",
+  "description": "HonKit plugin for HatenaBookmark pageowner (example)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "honkit serve",
+    "build": "honkit build"
+  },
+  "author": "Yuta Mizui <me@mziyut.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@mziyut/honkit-plugin-hatena-bookmark-pageowner": "file:../",
+    "honkit": "^4.0.7"
+  }
+}

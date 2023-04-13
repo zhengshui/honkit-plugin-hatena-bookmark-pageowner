@@ -1,0 +1,33 @@
+name: Test
+
+on:
+  push:
+
+permissions:
+  contents: read
+
+env:
+  NODE_VERSION: "18"
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "yarn"
+      - run: yarn install
+      - run: yarn run format
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "yarn"
+      - run: yarn install
+      - run: yarn run test

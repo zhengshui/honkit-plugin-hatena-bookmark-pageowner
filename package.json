@@ -1,0 +1,48 @@
+{
+  "name": "@mziyut/honkit-plugin-hatena-bookmark-pageowner",
+  "version": "0.1.0",
+  "description": "HonKit plugin for HatenaBookmark pageowner",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "test": "cd example && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mziyut/honkit-plugin-hatena-bookmark-pageowner.git"
+  },
+  "keywords": [
+    "honkit",
+    "gitbook",
+    "hatena",
+    "hatenabookmark"
+  ],
+  "author": "Yuta Mizui <me@mziyut.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mziyut/honkit-plugin-hatena-bookmark-pageowner/issues"
+  },
+  "homepage": "https://github.com/mziyut/honkit-plugin-hatena-bookmark-pageowner#readme",
+  "files": [
+    "index.js",
+    "assets/"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "2.8.7"
+  },
+  "engines": {
+    "honkit": ">=4.0.0"
+  },
+  "honkit": {
+    "properties": {
+      "hatenaID": {
+        "type": "string",
+        "title": "Hatena Id",
+        "required": true
+      }
+    }
+  },
+  "prettier": {}
+}

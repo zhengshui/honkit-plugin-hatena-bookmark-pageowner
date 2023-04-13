@@ -1,0 +1,8 @@
+{
+  "plugins": ["@mziyut/honkit-plugin-hatena-bookmark-pageowner"],
+  "pluginsConfig": {
+    "hatena-bookmark-pageowner": {
+      "hateneID": "mziyut112"
+    }
+  }
+}
