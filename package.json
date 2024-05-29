@@ -1,6 +1,6 @@
 {
   "name": "@shuizheng/honkit-plugin-hatena-bookmark-pageowner",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "HonKit plugin for hide element",
   "main": "index.js",
   "scripts": {
