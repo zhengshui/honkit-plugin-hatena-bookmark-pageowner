@@ -1,5 +1,5 @@
 {
-  "name": "@zhengshui/honkit-plugin-hide-element",
+  "name": "@shuizheng/honkit-plugin-hatena-bookmark-pageowner",
   "version": "0.1.0",
   "description": "HonKit plugin for hide element",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mziyut/honkit-plugin-hatena-bookmark-pageowner.git"
+    "url": "git+https://github.com/zhengshui/honkit-plugin-hatena-bookmark-pageowner.git"
   },
   "keywords": [
     "honkit",
@@ -18,7 +18,7 @@
     "hatena",
     "hatenabookmark"
   ],
-  "author": "Yuta Mizui <me@mziyut.com>",
+  "author": "shuizheng",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhengshui/honkit-plugin-hatena-bookmark-pageowner/issues"
@@ -37,10 +37,9 @@
   },
   "honkit": {
     "properties": {
-      "hatenaID": {
-        "type": "string",
-        "title": "Hatena Id",
-        "required": true
+      "hide": {
+        "type": "boolean",
+        "required": false
       }
     }
   },
